@@ -51,13 +51,13 @@
               <ul class="nav navbar-nav">
                 <li class="active"><a href="https://cmafsc.github.io">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="mailto:exampleemailaddress@exampleemailprovider.com">Contact</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#scholarship">Scholarship</a></li>
+                    <li><a href="#communityeducation">Community Education</a></li>
+                    <li><a href="#youthdevelopment">Youth Development</a></li>
                     <li role="separator" class="divider"></li>
                     <li class="dropdown-header">Nav header</li>
                     <li><a href="#">Separated link</a></li>
@@ -134,20 +134,20 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Scholarship</h2>
+          <span class="glyphicon glyphicon-giant glyphicon-piggy-bank" aria-hidden="true"></span>
+          <h2 id="scholarship">Scholarship</h2>
           <p>This is a description of Scholarship activities</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Community Education</h2>
+          <span class="glyphicon glyphicon-giant glyphicon-apple" aria-hidden="true"></span>
+          <h2 id="communityeducation">Community Education</h2>
           <p>This is a description of Community Education Activities</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Youth Development</h2>
+          <span class="glyphicon glyphicon-giant glyphicon-heart-empty" aria-hidden="true"></span>
+          <h2 id="youthdevelopment">Youth Development</h2>
           <p>This is a description of Youth Development Activities</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
@@ -160,23 +160,57 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <h2 id="about" class="featurette-heading">About CMAFSC</h2>
+          <p class="lead">The Community Martial Arts Foundation is organized as a 501(c)3 not-for-profit organization</p>
+			<ul class="media-list">
+
+			  <li class="media">
+				<div class="media-left">
+					<span class="glyphicon glyphicon-home" aria-hidden="true">  </span>
+				</div>
+				<div class="media-body">
+				  <h4 class="media-heading">Address</h4>
+					Community Martial Arts Foundation<br/>
+					1234 Martial Arts Way<br/>
+					Somecity, ST 54321
+				</div>
+			  </li>
+
+			  <li class="media">
+				<div class="media-left">
+					<span class="glyphicon glyphicon-earphone" aria-hidden="true">  </span>
+				</div>
+				<div class="media-body">
+				  <h4 class="media-heading">Email</h4>
+					<a href="mailto:cmafsc@gmail.com">cmafsc@gmail.com</a>
+				</div>
+			  </li>
+
+			  <li class="media">
+				<div class="media-left">
+					<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+				</div>
+				<div class="media-body">
+				  <h4 class="media-heading">Telephone</h4>
+					<a href="tel+5555555555">555-555-5555</a>
+				</div>
+			  </li>
+			</ul>
         </div>
       </div>
+
+      <!--
 
       <hr class="featurette-divider">
 
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Community Education</h2>
+          <p class="lead">Our member organizations can be available to give demonstrations at your next public event! Help show the public the impact your support has in the lives of our students and communities.</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
           <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <span class="glyphicon glyphicon-apple" aria-hidden="true"></span>
         </div>
       </div>
 
@@ -184,17 +218,20 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <h2 class="featurette-heading">Youth Engagement</h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>
         </div>
       </div>
 
       <hr class="featurette-divider">
 
+      -->
       <!-- /END THE FEATURETTES -->
+
 
 
       <!-- FOOTER -->
